@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+          //while문
+        // while(표현식){
+                            //참 일경우 계속 돌아간다
+        // }
+        //덧셈, 짝수, 홀수 
+
+        // let sum = 0;
+        // while(sum<=10){  //참이면 항상 반복됨.  tip) 10까지하고 싶으면 "=" 지우면됨
+        //     sum = sum +1; //sum 이 0이기에 1씩 더해주는것 
+        // }
+        // console.log(sum);
+
+        // while(true){  
+        //     sum = sum +1; 
+        //     if(sum==10){
+        //         break;
+        //     }
+        // }
+
+        //1~100까지 수 중에서 짝수만 출력 
+        // let even = 0;
+
+        // while(even <=100){
+        //     if(even % 2 ==0 && even !=0){
+        //         console.log("1~100사이의 짝수 : " +even);
+        //     }
+        //     even++;
+        // } 
+
+        // //구구단
+        // let gugudan = 2;
+        // let num = -1;
+        // while(num <=9){
+        //     console.log(gugudan + "*" + num + "=" +gugudan*num);
+        //     num++;
+        // }
+
+        // flag = ture
+        // while(flag){
+        //     let sign = prompt("메뉴를 선택하세요.");
+
+        //     swich(sign){
+        //         case 1:
+        //             //구구단 구하기
+        //         break;
+        //         case 2:
+        //             //홀수 구하기
+        //         break;
+        //         case 3:
+        //             //짝수 구하기
+        //         break;
+        //         case 4:
+        //             //종료
+        //         break;
+        //     }
+        // }
+
+        //while문안에서 예제 실행
+        // console.log(sum);
+
+        //do ~ while문  
+        
+        // do{
+
+        // }while()
+
+        sum = 0;
+
+        do{
+            sum = sum + 1
+        }while(sum < 1)
+        console.log(sum);
+
+        //1~100까지의 숫자를 구해보는 do~which
+        sum = 0;
+        let temp = 1;
+        do{
+            sum = sum + temp;
+            temp++;
+        }while(sum < 100)
+        console.log(sum);
+
+    </script>
+</body>
+</html>
